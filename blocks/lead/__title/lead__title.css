@@ -11,6 +11,16 @@
   word-wrap: break-word;
 }
 
+
+@media screen and (max-width: 720px){
+
+  .lead__title{
+      font-size: 60px;
+  }
+}
+
+
+
     @media screen and (max-width: 320px){
 
       .lead__title{
