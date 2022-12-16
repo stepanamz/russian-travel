@@ -5,7 +5,6 @@
   min-height: 740px;
   background-size: cover;
   background-position: center;
-  position: absolute;
   z-index: 1;
   transition: 0.6s;
   display: flex;
