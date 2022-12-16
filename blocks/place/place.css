@@ -7,20 +7,13 @@
 }
 
     @media screen and (max-width: 1024px){
-
-
       .place{
         max-width: 928px;
         gap: 48px 32px;
     }
-
-
     }
 
     @media screen and (max-width: 768px){
-
-
-
 
       .place{
         max-width: 720px;
@@ -30,12 +23,19 @@
     }
     }
 
+    @media screen and (max-width: 719px){
+
+      .place{
+        justify-content: center;
+
+    }
+    }
+
+
+
     @media screen and (max-width: 320px){
       .place{
         max-width: 320px;
         gap: 32px;
-        justify-content: center;
-
     }
-
     }

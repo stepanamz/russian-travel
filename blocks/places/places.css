@@ -46,6 +46,14 @@
     }
     }
 
+    @media screen and (max-width: 405px){
+
+
+      .places{
+        max-width: 350px;
+    }
+    }
+
     @media screen and (max-width: 320px){
 
 
