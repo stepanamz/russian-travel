@@ -1,7 +1,6 @@
 .places{
   max-width: 984px;
   width: 100%;
-  min-height: 3392px;
   margin: 0 auto;
   padding: 92px 0;
   display: flex;
@@ -26,7 +25,6 @@
         max-width: 720px;
         gap: 73px;
         padding: 88px 0 90px 0;
-        min-height: 0;
     }
 
     }
@@ -38,7 +36,6 @@
         max-width: 320px;
         gap: 50px;
         padding: 64px 0 66px 0;
-        min-height: 0;
     }
 
     }
