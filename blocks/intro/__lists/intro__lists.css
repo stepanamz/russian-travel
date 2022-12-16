@@ -1,4 +1,5 @@
 .intro__lists{
   list-style: none;
   max-width: 690px;
+  margin: 0;
 }
