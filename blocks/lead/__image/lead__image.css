@@ -1,28 +1,24 @@
-.lead__image{
+.lead__image {
   max-width: 984px;
   width: 100%;
   object-fit: cover;
 }
 
-    @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+  }
+}
 
-      .lead__image{
-        max-width: 928px;
-    }
-    }
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-width: 768px;
+  }
+}
 
-    @media screen and (max-width: 768px){
-
-      .lead__image{
-        max-width: 768px;
-
-    }
-    }
-
-    @media screen and (max-width: 320px){
-      .lead__image{
-        max-width: 320px;
-        min-height: 200px;
-    }
-
-    }
+@media screen and (max-width: 320px) {
+  .lead__image {
+    max-width: 320px;
+    min-height: 200px;
+  }
+}

@@ -1,4 +1,4 @@
-.intro__text{
+.intro__text {
   max-width: 690px;
   font-style: normal;
   font-weight: 400;
@@ -8,17 +8,14 @@
   margin: 0;
 }
 
-    @media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+  }
+}
 
-
-      .intro__text{
-          max-width: 288px;
-      }}
-
-
-      @media screen and (max-width: 768px){
-
-
-        .intro__text{
-            max-width: 720px;
-        }}
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}

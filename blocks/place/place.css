@@ -1,4 +1,4 @@
-.place{
+.place {
   max-width: 984px;
   width: 100%;
   display: flex;
@@ -6,36 +6,30 @@
   gap: 48px 40px;
 }
 
-    @media screen and (max-width: 1024px){
-      .place{
-        max-width: 928px;
-        gap: 48px 32px;
-    }
-    }
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    gap: 48px 32px;
+  }
+}
 
-    @media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    gap: 48px 28px;
+    align-items: flex-start;
+  }
+}
 
-      .place{
-        max-width: 720px;
-        gap: 48px 28px;
-        align-items: flex-start;
+@media screen and (max-width: 719px) {
+  .place {
+    justify-content: center;
+  }
+}
 
-    }
-    }
-
-    @media screen and (max-width: 719px){
-
-      .place{
-        justify-content: center;
-
-    }
-    }
-
-
-
-    @media screen and (max-width: 320px){
-      .place{
-        max-width: 320px;
-        gap: 32px;
-    }
-    }
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    gap: 32px;
+  }
+}

@@ -1,4 +1,4 @@
-.lead{
+.lead {
   max-width: 984px;
   width: 100%;
   padding-top: 56px;
@@ -6,26 +6,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-    }
+}
 
-    @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    padding-top: 48px;
+  }
+}
 
-      .lead{
-        max-width: 928px;
-        padding-top: 48px;
-    }
-    }
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+  }
+}
 
-    @media screen and (max-width: 768px){
-
-      .lead{
-        max-width: 768px;
-    }
-    }
-
-    @media screen and (max-width: 320px){
-      .lead{
-        max-width: 320px;
-    }
-
-    }
+@media screen and (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+  }
+}

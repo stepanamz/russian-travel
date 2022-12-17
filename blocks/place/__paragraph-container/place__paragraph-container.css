@@ -1,4 +1,4 @@
-.place__paragraph-container{
+.place__paragraph-container {
   max-width: 484px;
   width: 100%;
   display: flex;
@@ -6,28 +6,21 @@
   align-content: flex-start;
   gap: 26px;
 }
-    @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
+  .place__paragraph-container {
+    max-width: 456px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .place__paragraph-container {
+    max-width: 352px;
+  }
+}
 
-      .place__paragraph-container{
-        max-width: 456px;
-    }
-    }
-
-    @media screen and (max-width: 768px){
-
-
-      .place__paragraph-container{
-        max-width: 352px;
-    }
-    }
-
-    @media screen and (max-width: 320px){
-
-
-      .place__paragraph-container{
-        max-width: 288px;
-        gap: 25px;
-    }
-
-    }
+@media screen and (max-width: 320px) {
+  .place__paragraph-container {
+    max-width: 288px;
+    gap: 25px;
+  }
+}
