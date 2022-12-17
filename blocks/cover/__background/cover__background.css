@@ -1,24 +1,41 @@
 .cover__background{
-  background-image: url(../../../images/cover-trains.jpg);
   max-width: 1184px;
   width: 100%;
   min-height: 740px;
-  background-size: cover;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
   background-position: center;
-  z-index: 1;
-  transition: 0.6s;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 32px;
-  position: relative;
-  color: white;
-  text-decoration: none;
 }
 
-/* работает так же как и через ::before разницы нету */
+/* затемнение через ::before */
+
+.cover__background::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  background-size: cover;
+  z-index: 2;
+  opacity: 0.3;
+  transition: 0.6s;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
+
+
 
 @media screen and (max-width: 1024px){
 
@@ -43,6 +60,7 @@
   .cover__background{
     max-width: 320px;
     min-height: 200px;
+    gap: 16px;
 }
 
 }
